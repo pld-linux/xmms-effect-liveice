@@ -6,10 +6,11 @@ License:	GPL
 Group:		Applications/Sound
 Group(de):	Applikationen/Laut
 Group(pl):	Aplikacje/D¼wiêk
-URL:		http://star.arm.ac.uk/~spm/software/liveice.html
 Source0:	http://star.arm.ac.uk/~spm/software/liveice-xmms.tar.gz
+URL:		http://star.arm.ac.uk/~spm/software/liveice.html
+BuildRequires:	xmms-devel >= 1.0.0
+Requires:	xmms
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-BuildPrereq:	xmms-devel >= 1.0.0
 
 %define		_prefix	/usr/X11R6
 
@@ -42,7 +43,6 @@ rm -rf $RPM_BUILD_ROOT;
 
 %files
 %defattr(644,root,root,755)
-%doc {AUTHORS,ChangeLog,NEWS,README}.gz
-%dir %{_libdir}/xmms/Effect
+%doc *.gz
 %attr(755,root,root) %{_libdir}/xmms/Effect/*so
-%{_libdir}/xmms/Effect/*la
+%attr(755,root,root) %{_libdir}/xmms/Effect/*la
