@@ -42,7 +42,7 @@ autoconf
 %{__make}
 
 %install
-rm -rf $RPM_BUILD_ROOT;
+rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT
 
 %{__make} DESTDIR=$RPM_BUILD_ROOT install
