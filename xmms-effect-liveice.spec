@@ -14,7 +14,6 @@ BuildRequires:	libtool
 Requires:	xmms
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_prefix		/usr/X11R6
 
 %description
 LiveIce XMMS is an effects plugin for xmms which sends streams to
