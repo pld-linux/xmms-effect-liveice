@@ -1,7 +1,7 @@
 Summary:	LiveIce Plugin for XMMS
 Name:		xmms-effect-liveice
 Version:	1.0.0
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Sound
 Group(de):	Applikationen/Laut
@@ -27,6 +27,9 @@ comes from the GUI which was designed by Peter from the XMMS team.
 %prep
 %setup -q -n LiveIce-%{version}
 %build
+libtoolize --copy --force
+aclocal
+autoconf
 %configure
 %{__make}
 
