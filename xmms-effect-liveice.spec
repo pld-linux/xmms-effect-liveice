@@ -5,8 +5,6 @@ Version:	1.0.0
 Release:	2
 License:	GPL
 Group:		Applications/Sound
-Group(de):	Applikationen/Laut
-Group(pl):	Aplikacje/D¼wiêk
 Source0:	http://star.arm.ac.uk/~spm/software/liveice-xmms.tar.gz
 URL:		http://star.arm.ac.uk/~spm/software/liveice.html
 BuildRequires:	xmms-devel >= 1.0.0
