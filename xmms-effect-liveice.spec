@@ -36,7 +36,7 @@ XMMS.
 %setup -q -n LiveIce-%{version}
 %build
 %{__libtoolize}
-aclocal
+%{__aclocal}
 %{__autoconf}
 %configure
 %{__make}
