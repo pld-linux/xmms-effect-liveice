@@ -2,7 +2,7 @@ Summary:	LiveIce Plugin for XMMS
 Summary(pl):	Plugin LiveIce dla XMMS
 Name:		xmms-effect-liveice
 Version:	1.0.0
-Release:	6
+Release:	7
 License:	GPL v2+
 Group:		Applications/Sound
 Source0:	http://star.arm.ac.uk/~spm/software/liveice-xmms.tar.gz
