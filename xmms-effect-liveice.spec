@@ -2,20 +2,19 @@ Summary:	LiveIce Plugin for XMMS
 Summary(pl):	Plugin LiveIce dla XMMS
 Name:		xmms-effect-liveice
 Version:	1.0.0
-Release:	5
+Release:	6
 License:	GPL v2+
 Group:		Applications/Sound
 Source0:	http://star.arm.ac.uk/~spm/software/liveice-xmms.tar.gz
 # Source0-md5:	81d057e47044d05dc65e81dc0b5927e6
 URL:		http://star.arm.ac.uk/~spm/software/liveice.html
-BuildRequires:	xmms-devel >= 1.0.0
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	libtool
+BuildRequires:	rpmbuild(macros) >= 1.125
+BuildRequires:	xmms-devel >= 1.0.0
 Requires:	xmms
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
-%define		_xmms_plugin_dir	%(xmms-config --effect-plugin-dir)
 
 %description
 LiveIce XMMS is an effects plugin for xmms which sends streams to
@@ -54,4 +53,4 @@ rm -rf $RPM_BUILD_ROOT;
 %files
 %defattr(644,root,root,755)
 %doc AUTHORS ChangeLog NEWS README
-%attr(755,root,root) %{_xmms_plugin_dir}/*.so
+%attr(755,root,root) %{xmms_effect_plugindir}/*.so
