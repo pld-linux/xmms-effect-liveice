@@ -6,6 +6,7 @@ Release:	5
 License:	GPL v2+
 Group:		Applications/Sound
 Source0:	http://star.arm.ac.uk/~spm/software/liveice-xmms.tar.gz
+# Source0-md5:	81d057e47044d05dc65e81dc0b5927e6
 URL:		http://star.arm.ac.uk/~spm/software/liveice.html
 BuildRequires:	xmms-devel >= 1.0.0
 BuildRequires:	autoconf
