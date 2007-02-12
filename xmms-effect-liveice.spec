@@ -1,5 +1,5 @@
 Summary:	LiveIce Plugin for XMMS
-Summary(pl.UTF-8):   Wtyczka LiveIce dla XMMS-a
+Summary(pl.UTF-8):	Wtyczka LiveIce dla XMMS-a
 Name:		xmms-effect-liveice
 Version:	1.0.0
 Release:	7
