@@ -1,5 +1,5 @@
 Summary:	LiveIce Plugin for XMMS
-Summary(pl):	Wtyczka LiveIce dla XMMS-a
+Summary(pl.UTF-8):   Wtyczka LiveIce dla XMMS-a
 Name:		xmms-effect-liveice
 Version:	1.0.0
 Release:	7
@@ -24,12 +24,12 @@ many of the features of the full version of LiveIce but provides the
 main functions needed to stream from XMMS. Much of this simplicity
 comes from the GUI which was designed by Peter from the XMMS team.
 
-%description -l pl
-LiveIce XMMS jest wtyczk± dla XMMS-a, która wysy³a strumienie po IceCast
-i zapewnia ograniczony zestaw funkcji podobnych do tych, które daje
-liveice. LiveIce XMMS nie ma wielu funkcji pe³nej wersji liveice, ale
-zawiera funkcje potrzebne do dostarczania strumienia z XMMS-a. Wiêkszo¶æ
-funkcji jest dostêpna z GUI zaprojektowanego przez Petera z zespo³u
+%description -l pl.UTF-8
+LiveIce XMMS jest wtyczkÄ… dla XMMS-a, ktÃ³ra wysyÅ‚a strumienie po IceCast
+i zapewnia ograniczony zestaw funkcji podobnych do tych, ktÃ³re daje
+liveice. LiveIce XMMS nie ma wielu funkcji peÅ‚nej wersji liveice, ale
+zawiera funkcje potrzebne do dostarczania strumienia z XMMS-a. WiÄ™kszoÅ›Ä‡
+funkcji jest dostÄ™pna z GUI zaprojektowanego przez Petera z zespoÅ‚u
 XMMS.
 
 %prep
